@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "484506981917",
+    "firebase_url": "https://foodshoptuttorial.firebaseio.com",
+    "project_id": "foodshoptuttorial",
+    "storage_bucket": "foodshoptuttorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484506981917:android:4975b5ed07234af0a1d8f4",
+        "android_client_info": {
+          "package_name": "com.kg.foodshopdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484506981917-bbvq7ukqoulgg51t31pnip8hijkfkem0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMvz1uc9WzJ3udFTniL15SwjpesUXxQrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484506981917-bbvq7ukqoulgg51t31pnip8hijkfkem0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

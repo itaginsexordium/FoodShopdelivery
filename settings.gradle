@@ -1,0 +1,2 @@
+rootProject.name='FoodShop&delivery'
+include ':app'
