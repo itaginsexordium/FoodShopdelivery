@@ -1,13 +1,13 @@
 package com.kg.foodshopdelivery;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -51,8 +51,7 @@ Button btnSingUp;
                             Toast.makeText(SingUp.this, "Phone Number already register", Toast.LENGTH_SHORT).show();
                         }else {
                             mDialog.dismiss();
-                            User user=new User(edtName.getText().toString(),edtPassword.getText().toString());
-                            table_user.child(edtPhone.getText().toString()).setValue(user);
+                            User user=new User(edtName.getText().toString(),edtPassword.getText().toString(),edtPhone.getText().toString());
                             Toast.makeText(SingUp.this, "Sing up successfully !", Toast.LENGTH_SHORT).show();
                             finish();
                         }

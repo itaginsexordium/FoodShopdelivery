@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:shadowColor="@android:color/black"
+        app:shadowColor="@android:color/secondary_text_light"
         app:fButtonColor="@color/btnSignActive"
         app:shadowEnabled="true"
         app:shadowHeight="5dp"
